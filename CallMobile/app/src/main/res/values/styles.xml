@@ -1,0 +1,33 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_dark_primary</item>
+        <item name="colorAccent">@color/color_accent</item>
+    </style>
+    <string-array name="clientes">
+        <item>Cliente 1</item>
+    </string-array>
+
+    <string-array name="proyectos">
+        <item>Proyecto 1</item>
+    </string-array>
+
+    <string-array name="estados_op_llamada">
+        <item>EJECUTADA</item>
+        <item>FINALIZADA</item>
+    </string-array>
+
+    <string-array name="estados_secu_op_llamada">
+        <item>NO CONTESTA</item>
+        <item>NRO. EQUIVOCADO</item>
+        <item>NO EXISTE</item>
+        <item>EN REUNION</item>
+    </string-array>
+
+    <style name="DialogBasicCustomStyle" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:color">#d6000e</item>
+    </style>
+</resources>
